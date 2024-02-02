@@ -1,0 +1,3 @@
+Bu projede robot süpürge projesinin STMCubeIDE üzerinden HAL kütüphaneleri aracılığıyla gömülü yazılımı oluşturulmuştur.Yazılım ile ilgili detaylar aşağıda belirtilmiştir
+
+Yazılım üzerinde iki farklı motorun kontrolü gerçekleştirilmiştir. Devrenin 3 farklı bölümünde uzaklık sensörü bulunmaktadır.Devre aynı zamanda iki motorun hız-ayar kontrolünü sağlayabilecek iki farklı potansiyome ile adc okuması yapmaktadır. Devre içerisinde motorun ileri,geri,sağa ve sola hareketini sağlayabilecek komütasyon işlemleri bulunmaktadır.Bu işlemler sırasında komütasyonun gerekli şartlar içerisinde kesime girmesi için ınterruptlardan faydalanılmıştır.
